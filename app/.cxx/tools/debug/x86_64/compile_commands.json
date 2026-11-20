@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/Users/shizhihui/ccfb/runs/14249/workspace/app/.cxx/Debug/495a3a43/x86_64",
+  "command": "/Users/shizhihui/ccfb/runs/14249/workspace/.toolchain/android-sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android26 --sysroot=/Users/shizhihui/ccfb/runs/14249/workspace/.toolchain/android-sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drasp_native_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -Wall -Wextra -fstack-protector-strong -fvisibility=hidden -std=gnu++17 -o CMakeFiles/rasp_native.dir/rasp_native.cpp.o -c /Users/shizhihui/ccfb/runs/14249/workspace/app/src/main/cpp/rasp_native.cpp",
+  "file": "/Users/shizhihui/ccfb/runs/14249/workspace/app/src/main/cpp/rasp_native.cpp"
+},
+{
+  "directory": "/Users/shizhihui/ccfb/runs/14249/workspace/app/.cxx/Debug/495a3a43/x86_64",
+  "command": "/Users/shizhihui/ccfb/runs/14249/workspace/.toolchain/android-sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android26 --sysroot=/Users/shizhihui/ccfb/runs/14249/workspace/.toolchain/android-sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drasp_native_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -Wall -Wextra -fstack-protector-strong -fvisibility=hidden -std=gnu++17 -o CMakeFiles/rasp_native.dir/raw_syscall.cpp.o -c /Users/shizhihui/ccfb/runs/14249/workspace/app/src/main/cpp/raw_syscall.cpp",
+  "file": "/Users/shizhihui/ccfb/runs/14249/workspace/app/src/main/cpp/raw_syscall.cpp"
+},
+{
+  "directory": "/Users/shizhihui/ccfb/runs/14249/workspace/app/.cxx/Debug/495a3a43/x86_64",
+  "command": "/Users/shizhihui/ccfb/runs/14249/workspace/.toolchain/android-sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android26 --sysroot=/Users/shizhihui/ccfb/runs/14249/workspace/.toolchain/android-sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Drasp_native_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -Wall -Wextra -fstack-protector-strong -fvisibility=hidden -std=gnu++17 -o CMakeFiles/rasp_native.dir/scanners.cpp.o -c /Users/shizhihui/ccfb/runs/14249/workspace/app/src/main/cpp/scanners.cpp",
+  "file": "/Users/shizhihui/ccfb/runs/14249/workspace/app/src/main/cpp/scanners.cpp"
+}
+]

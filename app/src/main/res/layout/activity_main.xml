@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机银行 RASP 运行时自我保护演示"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1" />
+
+        <TextView
+            android:id="@+id/deviceInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="12sp"
+            android:textIsSelectable="true" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBaseline"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="① 基线检测（无攻击）" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="② 模拟挂钩 / 注入攻击（仅作用于本 App 检测管线）"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/attackButtons" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="③ 受保护转账（fail-closed）"
+            android:textStyle="bold" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/swTamper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="模拟 hook 篡改转账金额（确认 50 元 → 提交被改）" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnTransferClean"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="正常转账 50 元" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnTransferAttack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="在 A1 挂钩攻击下转账" />
+
+        <TextView
+            android:id="@+id/output"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="monospace"
+            android:textSize="12sp"
+            android:textIsSelectable="true"
+            android:background="#11000000"
+            android:padding="10dp"
+            android:text="结果将显示在这里…" />
+    </LinearLayout>
+</ScrollView>

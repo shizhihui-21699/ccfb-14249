@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 盾牌，象征运行时自我保护 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,28 L74,36 V52 C74,64 65,72 54,78 C43,72 34,64 34,52 V36 Z" />
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M49,54 L53,58 L61,48 L58,45 L53,51 L51,49 Z" />
+</vector>
